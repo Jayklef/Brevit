@@ -1,9 +1,9 @@
 package com.jayklef.brevit.repository;
 
-import com.jayklef.brevit.model.Answers;
+import com.jayklef.brevit.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ResponsesRepository extends JpaRepository<Answers, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 }
